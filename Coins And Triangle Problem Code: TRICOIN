@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int t; 
+	scanf("%d",&t); 
+	for(int x=0;x<t;x++) 
+	{   int n,i=1,fact=0; 	    
+	    scanf("%d",&n); 	    
+	    while(fact<=n)
+	    {
+	        fact=fact+i;
+	        i++;
+	    }
+	    printf("%d\n",i-2);
+	}
+	return 0;
+}
+
